@@ -118,8 +118,8 @@ let ccoDepartmentArr1 = [
     },
     {
         id : 3,
-        img : '',
-        name : '------',
+        img : './images/milana-n.jpg',
+        name : 'Милана Назарова',
         job: 'Маркетолог / Продукт менеджер',
     },
     {
