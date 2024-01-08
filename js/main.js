@@ -8,8 +8,8 @@ function renderItem (array, node) {
         let newItemTemplate = elTemplate.cloneNode(true);
         newItemTemplate.querySelector(".temp__img").src = item.img ? item.img : './images/anonim.jpeg';
         newItemTemplate.querySelector(".temp__name").textContent = item.name ;
+        newItemTemplate.querySelector(".temp__name").href = item.link;
         newItemTemplate.querySelector(".temp__position").textContent = item.job;
-
         node.append(newItemTemplate)
     })
 }
@@ -20,6 +20,7 @@ function renderSummary (array, node) {
         let newSummaryTemplate = elSummaryTemplate.cloneNode(true);
         newSummaryTemplate.querySelector(".temp__img").src = item.img ? item.img : './images/anonim.jpeg';
         newSummaryTemplate.querySelector(".temp__name").textContent = item.name;
+        newSummaryTemplate.querySelector(".temp__name").href = item.link;
         newSummaryTemplate.querySelector(".temp__position").textContent = item.job;
 
         node.append(newSummaryTemplate)
