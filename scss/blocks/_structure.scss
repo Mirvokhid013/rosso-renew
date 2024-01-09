@@ -60,6 +60,24 @@ summary {
     height: auto;
 }
 
+.site-main__iframe {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.iframe__link {
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+}
+
+.thanks__img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+}
+
+
 @media only screen and (min-width: 830px) {
     .main-department {
         justify-content: space-evenly;
