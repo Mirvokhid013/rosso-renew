@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROSSO ELECTRONICS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -127,6 +128,32 @@
                         </details> 
                     </div>            
                 </div>
+            </div>
+        </section>
+        <section class="site-main__pro">
+            <div class="container">
+                <div class="pro__inner">
+                    <h2 class="pro__title">Что мы производим</h2>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./images/gaz.jpg" alt="" class="card__image"></div>
+                            <div class="swiper-slide"><img src="./images/televizor.jpg" alt="" class="card__image"></div>
+                            <div class="swiper-slide"><img src="./images/stiralka.jpg" alt="" class="card__image"></div>
+                            <div class="swiper-slide"><img src="./images/kondyor.jpg" alt="" class="card__image"></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        
+                        <!-- If we need scrollbar -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                </div>            
             </div>
         </section>
         <section id="etika" class="site-main__kodeks kodeks">
@@ -628,6 +655,7 @@
         </summary>
     </template>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/users.js"></script>
     <script src="./js/main.js"></script>
 </body>
