@@ -432,6 +432,18 @@ h3 {
   height: 300px;
 }
 
+.swiper-button-prev {
+  color: #ff0000 !important;
+}
+
+.swiper-button-next {
+  color: #ff0000 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff0000 !important;
+}
+
 @media only screen and (min-width: 600px) {
   .card__image {
     display: block;
