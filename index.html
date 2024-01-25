@@ -134,24 +134,10 @@
             <div class="container">
                 <div class="pro__inner">
                     <h2 class="pro__title">Что мы производим</h2>
-                    <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide"><img src="./images/gaz.jpg" alt="" class="card__image"></div>
-                            <div class="swiper-slide"><img src="./images/televizor.jpg" alt="" class="card__image"></div>
-                            <div class="swiper-slide"><img src="./images/stiralka.jpg" alt="" class="card__image"></div>
-                            <div class="swiper-slide"><img src="./images/kondyor.jpg" alt="" class="card__image"></div>
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                        
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        
-                        <!-- If we need scrollbar -->
-                        <!-- <div class="swiper-scrollbar"></div> -->
+                    <div class="swiper-js">
+                        <ul class="swipe-list">
+                            
+                        </ul>
                     </div>
                 </div>            
             </div>
@@ -170,55 +156,22 @@
                         <p class="subin__text"><strong style="display: block; color: #ff0000;">1. Санузель:</strong>
                             Женский туалет находится на 1-м этаже. Мужской туалет находится в подвале, и также имеется еще один мужской туалет на 2-м этаже. Вы можете найти их в соответствующих местах в офисе. Для вашего удобства, мы поддерживаем чистоту и порядок, и всегда следим за запасами необходимых принадележностей.
                         </p>
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./images/toiletm.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/toiletw.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                            </div>
+                        <div class="subin-img-wrapper">
+                            <img src="./images/Aiga_toilets_inv.svg.png" alt="" class="subin-img">
                         </div>
                         <p class="subin__text">
                             <strong style="display: block; color: #ff0000;">2. Кухня и столовая:</strong>
                             Наши уютные кухни и столовая находятся рядом друг с другом на 1-м этаже. Здесь вы можете насладиться разнообразными блюдами, приготовленными нашим поваром. Также в столовой доступна кофейная машина для вашего удовольствия. Пожалуйста, не забывайте убирать за собой.
                         </p>
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./images/kux1.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/kux2.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/kux3.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/kux4.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/kux5.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                            </div>
+                        <div class="subin-img-wrapper">
+                            <img src="./images/conteen.jpeg" alt="" class="subin-img">
                         </div>
                         <p class="subin__text">
                             <strong style="display: block; color: #ff0000;">3. Конференционный зал:</strong>
                             Для бронирования конференционного зала, пожалуйста, обратитесь к менеджеру офиса. Наши менеджеры готовы помочь вам в этом вопросе и предоставить дополнительную информацию о доступности и правилах использования.
                         </p>
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./images/kon1.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/kon2.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/kon3.jpg" class="d-block carusel-img w-img" alt="..."  height="400">
-                                </div>
-                            </div>
+                        <div class="subin-img-wrapper">
+                            <img src="./images/kon2.jpg" alt="" class="subin-img">
                         </div>
                         
                     </div>
@@ -288,6 +241,11 @@
                 <p class="temp__position"></p>
             </div>
         </summary>
+    </template>
+    <template id="js-card">
+        <li class="swipe__item">
+            <img src="" alt="..." class="swipe__img">
+        </li>
     </template>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

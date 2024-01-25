@@ -465,3 +465,27 @@ let yuristDepartmentArr = [
     },
 ];
 
+let cardImg = [
+    {
+        id : 1,
+        img : "./images/televizor.jpg",
+    },
+    {
+        id : 2,
+        img : "./images/gaz.jpg",
+    },
+    {
+        id : 3,
+        img : "./images/stiralka.jpg",
+    },
+    {
+        id : 4,
+        img : "./images/kondyor.jpg",
+    },
+    {
+        id : 5,
+        img : "./images/kondyor.jpg",
+    },
+]
+
+

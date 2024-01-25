@@ -1,4 +1,6 @@
 let elTemplate = document.querySelector("#js-template").content;
+let elCard = document.querySelector("#js-card").content;
+let elCardHtml = document.querySelector(".swipe-list");
 
 let elSummaryTemplate = document.querySelector("#js-summary").content;
 
@@ -13,6 +15,17 @@ function renderItem (array, node) {
         node.append(newItemTemplate)
     })
 }
+
+function renderCard (array, node) {
+  node.innerHTML = '';
+  array.forEach((item) => {
+      let newItemCard = elCard.cloneNode(true);
+      newItemCard.querySelector(".swipe__img").src = item.img ? item.img : './images/televizor.jpg';
+      node.append(newItemCard)
+  })
+}
+
+renderCard(cardImg, elCardHtml);
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters

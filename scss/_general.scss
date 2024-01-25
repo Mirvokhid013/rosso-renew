@@ -111,6 +111,40 @@ h3 {
 .swiper-pagination-bullet-active {
     background-color: #ff0000 !important;
 }
+
+.swipe-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+.swipe__item {
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 14px 0px #ff0000;
+}
+
+.swipe__img {
+    display: block;
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.subin-img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+}
+
+
 @media only screen and (min-width: 600px) {
     .card__image {
         display: block;
